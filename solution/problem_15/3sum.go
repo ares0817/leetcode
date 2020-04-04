@@ -18,7 +18,7 @@ func threeSum(nums []int) [][]int {
 
 	sort.Ints(nums)
 
-	i := 0;
+	i := 0
 	for {
 		target := 0 - nums[i]
 		j := i + 1
